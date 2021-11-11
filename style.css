@@ -45,11 +45,22 @@ header {
     align-items: center;
 }
 
-.menu div{ 
+.main { 
     display: flex;
     height: 80px;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.save { 
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin-right: 32px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
