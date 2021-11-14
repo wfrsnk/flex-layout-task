@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
-    <link rel="stylesheet" href="./style/styleFlex.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="./style/bootstrap-grid.css">
+    <link rel="stylesheet" href="./style/bootstrap-grid.rtl.css">
+    
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="cont">
             <div class="flexHeader">
                 <div class="logo">NewsExplorer</div>
                 <nav class='menu hideMenu'>   
@@ -26,7 +27,7 @@
         </div>
     </header>
 
-    <section class="container">
+    <section class="cont">
         <div class="info">
             <p>Сохраненные статьи</p>
             <h1>Грета, у вас 5 <br> сохранённых статей</h1>
@@ -35,9 +36,9 @@
     </section>
 
     <section class="content">
-            <div class="containerCards">
-                <div class="cardFlexContainer">
-                    <div class="card">
+            <div class="containerCards container">
+                <div class="row cardContainerInner">
+                    <div class="card  col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm">
                         <img class="image" src="./img/image_06.jpg" alt="image_06">
                         <div class="activeBtnFlex">
                             <div class="keyWord">Природа</div>
@@ -51,7 +52,7 @@
                         <p class="description"> В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
                         <p class="tag">Дзен</p>
                     </div>
-                    <div class="card">
+                    <div class="card col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm">
                         <img class="image" src="./img/image_01.jpg" alt="image_01">
                         <div class="activeBtnFlex">
                             <div class="keyWord">Природа</div>
@@ -66,7 +67,7 @@
                             из местных чудес природы.</p>
                         <p class="tag">Афиша</p>
                     </div>
-                    <div class="card">
+                    <div class="card col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm">
                         <img class="image" src="./img/image_05.jpg" alt="image_05">
                         <div class="activeBtnFlex">
                             <div class="keyWord">Тайга</div>
@@ -80,7 +81,7 @@
                         <p class="description"> Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
                         <p class="tag">Медиазона</p>
                     </div>
-                    <div class="card">
+                    <div class="card col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm">
                         <img class="image" src="./img/image_06.jpg" alt="image_06">
                         <div class="activeBtnFlex">
                             <div class="keyWord">Природа</div>
@@ -94,7 +95,7 @@
                         <p class="description"> В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
                         <p class="tag">Дзен</p>
                     </div>
-                    <div class="card">
+                    <div class="card col-xxl-4 col-xl-6 col-lg-4 col-md-4 col-sm">
                         <img class="image" src="./img/image_01.jpg" alt="image_01">
                         <div class="activeBtnFlex">
                             <div class="keyWord">Природа</div>
@@ -115,7 +116,7 @@
     </section>
 
     <footer>
-        <div class="container">
+        <div class="cont">
             <div class="flexFooter">
                 <div class="footerText">© 2020 Supersite, Powered by News API</div>
                     <div class="textAndIconsFlex">
