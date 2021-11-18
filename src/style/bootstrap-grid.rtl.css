@@ -109,7 +109,7 @@
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    
+
     margin-top: var(--bs-gutter-y);
 }
 
@@ -5095,7 +5095,7 @@ header {
     align-items: center;
 }
 
-.main { 
+.main {
     display: flex;
     height: 80px;
     align-items: center;
@@ -5106,7 +5106,7 @@ header {
     font-size: 18px;
     line-height: 24px;
 }
-.save { 
+.save {
     display: flex;
     height: 80px;
     align-items: center;
@@ -5118,7 +5118,7 @@ header {
     line-height: 24px;
 }
 
-.menuFlag {     
+.menuFlag {
     border-bottom: solid 2px #1A1B22;
 }
 
@@ -5253,7 +5253,7 @@ header {
     letter-spacing: 0.4px;
     text-transform: uppercase;
     color: #B6BCBF;
-    position: absolute;    
+    position: absolute;
     bottom: 24px;
     left: 24px;
 }
@@ -5394,30 +5394,30 @@ header {
 
 /* //////////////////////////////////////////////////////////////MOBILE////////////////////////////////////////////////////////////// */
 
-@media (max-width: 550px) { 
-    
+@media (max-width: 550px) {
+
     .menu {
             display: none;
             justify-content: space-between;
             align-items: center;
-    
+
     }
-    
- 
-    .menuFlag {     
+
+
+    .menuFlag {
             border-bottom: solid 2px #1A1B22;
     }
-    
+
     .hideMobileMenu {
             display: flex;
     }
-    
-    
-    
-    
+
+
+
+
     /* ////////////// FOOTER section ///////////////// */
-    
- 
+
+
 .flexFooter {
     width: 100%;
     display: flex;

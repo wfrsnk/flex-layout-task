@@ -28,7 +28,7 @@ header {
     /* justify-content: space-between;
     align-items: center; */
 }
-.logo {  
+.logo {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -44,7 +44,7 @@ header {
     justify-items: end;
     align-items: center;
 }
-.main { 
+.main {
     height: 80px;
     display: grid;
     grid-template-rows: 1fr;
@@ -57,7 +57,7 @@ header {
     font-size: 18px;
     line-height: 24px;
 }
-.save { 
+.save {
     height: 80px;
     display: grid;
     grid-template-rows: 1fr;
@@ -70,7 +70,7 @@ header {
     font-size: 18px;
     line-height: 24px;
 }
-.menuFlag {   
+.menuFlag {
     border-bottom: solid 2px #1A1B22;
 }
 .logout {
@@ -188,7 +188,7 @@ header {
     letter-spacing: 0.4px;
     text-transform: uppercase;
     color: #B6BCBF;
-    position: absolute;  
+    position: absolute;
     bottom: 24px;
     left: 24px;
 }
@@ -316,13 +316,13 @@ header {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr auto;
     padding-top: 14px;
-   
+
 }
 .icon1 {
     margin-right: 1vw;
 }
 /* //////////////////////////////////////////////////////////////MOBILE////////////////////////////////////////////////////////////// */
-@media (max-width: 550px) { 
+@media (max-width: 550px) {
     * {
         padding: 0;
         margin: 0;
@@ -340,7 +340,7 @@ header {
         margin:  0 auto;
     }
     /* ////////////// Header section ///////////////// */
-    
+
     header {
         box-shadow: inset 0px -1px 0px #D1D2D6;
     }
@@ -364,7 +364,7 @@ header {
         display: none;
         justify-content: space-between;
         align-items: center;
-    
+
     }
     .hideMobileMenu {
         display: block;
@@ -417,7 +417,7 @@ header {
         border-radius: 16px;
         background-color: #fff;
     }
-    
+
     .image {
         max-width: 400px;
         width: 100%;
@@ -465,11 +465,11 @@ header {
         letter-spacing: 0.4px;
         text-transform: uppercase;
         color: #B6BCBF;
-        position: absolute;  
+        position: absolute;
         bottom: 24px;
         left: 24px;
     }
-    /* ////////////// FOOTER section ///////////////// */   
+    /* ////////////// FOOTER section ///////////////// */
     .flexFooter {
         width: 100%;
         display: grid;
