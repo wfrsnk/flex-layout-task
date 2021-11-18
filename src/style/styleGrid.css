@@ -3,25 +3,21 @@
     padding: 0;
     margin: 0;
 }
-
 .container {
     width: 90vw;
     max-width: 1232px;
     margin:  0 auto;
 }
-
 .containerCards {
     width: 90vw;
     max-width: 1232px;
     margin:  0 auto;
 }
-
 /* ////////////// Header section ///////////////// */
 
 header {
     box-shadow: inset 0px -1px 0px #D1D2D6;
 }
-
 .gridHeader {
     height: 80px;
     width: 100%;
@@ -32,9 +28,7 @@ header {
     /* justify-content: space-between;
     align-items: center; */
 }
-
-.logo {
-    
+.logo {  
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -42,7 +36,6 @@ header {
     line-height: 24px;
     color: #1A1B22;
 }
-
 .menu {
     text-align: center;
     display: grid;
@@ -51,16 +44,13 @@ header {
     justify-items: end;
     align-items: center;
 }
-
 .main { 
-
     height: 80px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -74,18 +64,15 @@ header {
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
 }
-
 .menuFlag {   
     border-bottom: solid 2px #1A1B22;
 }
-
 .logout {
     display: grid;
     grid-template-rows: 1fr;
@@ -103,17 +90,13 @@ header {
     font-size: 18px;
     line-height: 24px;
 }
-
 .logout img {
     margin-left: 5px;
 }
-
-
 .hideMobileMenu {
     display: none;
 }
 /* ////////////// INFO section ///////////////// */
-
 .info h1 {
     font-family: Roboto Slab;
     font-style: normal;
@@ -132,20 +115,16 @@ header {
     line-height: 24px;
     color: rgba(26, 27, 34, 0.5);
 }
-
 .info div {
     margin-top: 30px;
     margin-bottom: 56px;
 }
-
 /* ////////////// CARD GALLERY section ///////////////// */
-
 .content {
     width: 100%;
     background-color: #F5F6F7;
     padding-top: 62px;
 }
-
 .cardGridContainer {
     display: grid;
     grid-template-rows: 1fr;
@@ -154,8 +133,6 @@ header {
     justify-items: center;
     padding-bottom: 62px;
 }
- 
-
 .card {
     box-sizing: border-box;
     position: relative;
@@ -165,13 +142,11 @@ header {
     background-color: #fff;
 
 }
-
 .image {
     max-width: 400px;
     max-height: 272px;
     border-radius: 16px 16px 0 0;
 }
-
 .cardDate {
     font-family: Source Sans Pro;
     font-style: normal;
@@ -182,7 +157,6 @@ header {
     margin-top: 12px;
     margin-left: 24px;
 }
-
 .title {
     font-family: Roboto Slab;
     font-style: normal;
@@ -194,7 +168,6 @@ header {
     margin-left: 24px;
     margin-right: 24px;
 }
-
 .description {
     font-family: Roboto;
     font-style: normal;
@@ -206,7 +179,6 @@ header {
     margin-left: 24px;
     margin-right: 24px;
 }
-
 .tag {
     font-family: Roboto Slab;
     font-style: normal;
@@ -220,9 +192,7 @@ header {
     bottom: 24px;
     left: 24px;
 }
-
 /* ////////////// CARD GALLERY ACTIVE BUTTONS ///////////////// */
-
 .activeBtnGrid {
     display:grid;
     grid-template-rows: 1fr;
@@ -233,7 +203,6 @@ header {
     top: 24px;
     right: 24px;
 }
-
 .keyWord {
     display:grid;
     justify-content: center;
@@ -251,13 +220,11 @@ header {
     color: #000000;
 
 }
-
 .activeBtnGridInner{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr auto;
 }
-
 .deleteCard {
     background: #FFFFFF;
     border-radius: 10px;
@@ -274,12 +241,9 @@ header {
     align-items: center;
     color: #000000;
 }
-
 .deleteCardFlag {
     display: block;
 }
-
-
 .trash {
     display: grid;
     justify-content: center;
@@ -289,14 +253,11 @@ header {
     height: 40px;
     width: 40px;
 }
-
 .trash img {
     height: 24px;
     width: 24px;
 }
-
 /* ////////////// FOOTER section ///////////////// */
-
 .flexFooter {
     width: 100%;
     display: grid;
@@ -304,7 +265,6 @@ header {
     grid-template-columns: 1fr auto;
     justify-content: space-between;
 }
-
 .footerMenu {
     display: grid;
     grid-template-rows: 1fr;
@@ -318,7 +278,6 @@ header {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr auto;
 }
-
 .mainFooter{
     display: grid;
     align-items: center;
@@ -341,7 +300,6 @@ header {
     padding-bottom: 30px;
     margin-right: 3vw;
 }
-
 .footerText {
     font-family: Roboto;
     font-style: normal;
@@ -363,10 +321,7 @@ header {
 .icon1 {
     margin-right: 1vw;
 }
-
-
 /* //////////////////////////////////////////////////////////////MOBILE////////////////////////////////////////////////////////////// */
-
 @media (max-width: 550px) { 
     * {
         padding: 0;
@@ -379,26 +334,22 @@ header {
         width: 90vw;
         margin:  0 auto;
     }
-    
     .containerCards {
         max-width: 1232px;
         width: 90vw;
         margin:  0 auto;
     }
-    
     /* ////////////// Header section ///////////////// */
     
     header {
         box-shadow: inset 0px -1px 0px #D1D2D6;
     }
-    
     .gridHeader {
         height: 80px;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr auto;
     }
-    
     .logo {
         font-family: Roboto Slab;
         font-style: normal;
@@ -409,22 +360,16 @@ header {
         align-items: center;
         color: #1A1B22;
     }
-    
     .menu {
         display: none;
         justify-content: space-between;
         align-items: center;
     
     }
-    
-    
     .hideMobileMenu {
         display: block;
     }
-    
-    
     /* ////////////// INFO section ///////////////// */
-    
     .info h1 {
         font-family: Roboto Slab;
         font-style: normal;
@@ -444,20 +389,16 @@ header {
         line-height: 24px;
         color: rgba(26, 27, 34, 0.5);
     }
-    
     .info div {
         margin-top: 30px;
         margin-bottom: 34px;
     }
-    
     /* ////////////// CARD GALLERY section ///////////////// */
-    
     .content {
         width: 100%;
         background-color: #F5F6F7;
         padding-top: 24px;
     }
-    
     .cardGridContainer {
         display: grid;
         grid-template-rows: 1fr;
@@ -466,9 +407,6 @@ header {
         justify-content: center;
         padding-bottom: 24px;
     }
-     
-    
-    
     .card {
         box-sizing: border-box;
         margin: 5px auto;
@@ -478,7 +416,6 @@ header {
         width: 100%;
         border-radius: 16px;
         background-color: #fff;
-    
     }
     
     .image {
@@ -487,7 +424,6 @@ header {
         max-height: 272px;
         border-radius: 16px 16px 0 0;
     }
-    
     .cardDate {
         font-family: Source Sans Pro;
         font-style: normal;
@@ -498,7 +434,6 @@ header {
         margin-top: 12px;
         margin-left: 24px;
     }
-    
     .title {
         font-family: Roboto Slab;
         font-style: normal;
@@ -510,7 +445,6 @@ header {
         margin-left: 24px;
         margin-right: 24px;
     }
-    
     .description {
         font-family: Roboto;
         font-style: normal;
@@ -522,7 +456,6 @@ header {
         margin-left: 24px;
         margin-right: 24px;
     }
-    
     .tag {
         font-family: Roboto Slab;
         font-style: normal;
@@ -536,79 +469,66 @@ header {
         bottom: 24px;
         left: 24px;
     }
-    
-    
-    /* ////////////// CARD GALLERY ACTIVE BUTTONS ///////////////// */
-    
-   
-    
-    /* ////////////// FOOTER section ///////////////// */
-    
-   
-.flexFooter {
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    padding-top: 24px;
-}
-.textAndIconsFlex {
-    margin-top: 20px;
-    height: 80px;
-    width: 100%;
-    display: grid;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.mainFooter{
-    display: grid;
-    align-items: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    padding-bottom: 30px;
-}
-.yaProfi {
-    display: grid;
-    align-items: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    padding-bottom: 30px;
-}
-
-
-
-.footerText {
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #B6BCBF;
-    display: block;
-    grid-row: 2/3;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    width: 100%;
- 
-}
-.iconsFooter {
-    display: grid;
-    padding-top: 0px;
-}
-.icon1 {
-    margin-right: 24px;
-}
-.footerMenu {
-    display: block;
-}
+    /* ////////////// FOOTER section ///////////////// */   
+    .flexFooter {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        padding-top: 24px;
+    }
+    .textAndIconsFlex {
+        margin-top: 20px;
+        height: 80px;
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .mainFooter{
+        display: grid;
+        align-items: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    .yaProfi {
+        display: grid;
+        align-items: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    .footerText {
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #B6BCBF;
+        display: block;
+        grid-row: 2/3;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .iconsFooter {
+        display: grid;
+        padding-top: 0px;
+    }
+    .icon1 {
+        margin-right: 24px;
+    }
+    .footerMenu {
+        display: block;
+    }
 }
